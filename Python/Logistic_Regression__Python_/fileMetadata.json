@@ -1,0 +1,34 @@
+[
+   {
+      "name": "hmeq_logistic.pickle",
+      "role": "python pickle"
+   },
+   {
+      "name": "hmeq_logistic_score.py",
+      "role": "score"
+   },
+   {
+      "name": "inputVar.json",
+      "role": "inputVariables"
+   },
+   {
+      "name": "outputVar.json",
+      "role": "outputVariables"
+   },
+   {
+      "name": "requirements.json",
+      "role": "scoreResource"
+   },
+   {
+      "name": "DS2EP_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "settings.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "example_test.py",
+      "role": "scoreResource"
+   }
+]
