@@ -1,0 +1,132 @@
+{
+  "SASJSONExport" : "1.0 FMTCHARACTER",
+  "SASTableData+ARGUMENTS" : [ {
+    "name" : "CLAGE",
+    "order" : 1,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "CLNO",
+    "order" : 2,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "DEBTINC",
+    "order" : 3,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "DELINQ",
+    "order" : 4,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "DEROG",
+    "order" : 5,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "LOAN",
+    "order" : 6,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "VALUE",
+    "order" : 7,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "YOJ",
+    "order" : 8,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "EM_CLASSIFICATION",
+    "order" : 9,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 12
+  }, {
+    "name" : "EM_EVENTPROBABILITY",
+    "order" : 10,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "EM_PROBABILITY",
+    "order" : 11,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "I_BAD",
+    "order" : 12,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 32
+  }, {
+    "name" : "P_BAD0",
+    "order" : 13,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "P_BAD1",
+    "order" : 14,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "_P_",
+    "order" : 15,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "_WARN_",
+    "order" : 16,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 4
+  } ]
+}

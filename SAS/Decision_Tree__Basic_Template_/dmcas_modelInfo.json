@@ -1,0 +1,12 @@
+{
+  "scoreType" : "ds2MultiType",
+  "algorithm" : "Decision Tree",
+  "algorithmI18N" : "decision.tree.node.name.txt",
+  "enableRegistration" : "true",
+  "enableScoring" : "true",
+  "astores" : {
+    "scoreResources" : {
+      "resource1" : "_ZS0TTJ0T687KBBFU2XLFC5KO_AST"
+    }
+  }
+}
