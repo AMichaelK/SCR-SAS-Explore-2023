@@ -1,0 +1,23 @@
+{
+   "creationTimeStamp": "2023-08-16T14:11:28.710Z",
+   "createdBy": "sorowl",
+   "modifiedTimeStamp": "2023-08-16T14:11:46.723Z",
+   "modifiedBy": "sorowl",
+   "id": "903a7c92-2f56-440e-910e-b5b2c4036cac",
+   "name": "Gradient Boosting (1) (AutoML)",
+   "scoreCodeType": "ds2MultiType",
+   "algorithm": "gradboost",
+   "function": "classification",
+   "modeler": "sorowl",
+   "modelType": "astore",
+   "trainTable": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/HMEQ",
+   "eventProbVar": "P_BAD1",
+   "targetVariable": "BAD",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Model Studio",
+   "toolVersion": "V2023.07",
+   "externalModelId": "f47d8a74-9fb8-435d-a48c-3706c0345220",
+   "modelVersionName": "1.1",
+   "custom properties": []
+}

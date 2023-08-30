@@ -1,0 +1,187 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "varimportance",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "Importance" : {
+      "label" : "Training Importance",
+      "length" : 8,
+      "order" : 4,
+      "parameter" : "Importance",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "Importance" ]
+    },
+    "LABEL" : {
+      "label" : "Variable Label",
+      "length" : 256,
+      "order" : 1,
+      "parameter" : "LABEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LABEL" ]
+    },
+    "ROLE" : {
+      "label" : "Role",
+      "length" : 32,
+      "order" : 2,
+      "parameter" : "ROLE",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "ROLE" ]
+    },
+    "RelativeImportance" : {
+      "label" : "Relative Importance",
+      "length" : 8,
+      "order" : 6,
+      "parameter" : "RelativeImportance",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "RelativeImportance" ]
+    },
+    "Std" : {
+      "label" : "Importance Standard Deviation",
+      "length" : 8,
+      "order" : 5,
+      "parameter" : "Std",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "Std" ]
+    },
+    "Variable" : {
+      "label" : "Variable Name",
+      "length" : 7,
+      "order" : 3,
+      "parameter" : "Variable",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "Variable" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "Importance" : "10.2592602273",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "1",
+      "Std" : "62.84719019",
+      "Variable" : "DEBTINC"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "Importance" : "2.76553138017",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.269564405122",
+      "Std" : "4.93458407169",
+      "Variable" : "CLAGE"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "Importance" : "2.35666550969",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.229711056886",
+      "Std" : "4.65195860998",
+      "Variable" : "VALUE"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "Importance" : "1.89384548741",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.184598640199",
+      "Std" : "2.2677251701",
+      "Variable" : "YOJ"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "Importance" : "1.80300976118",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.175744617178",
+      "Std" : "5.58845302031",
+      "Variable" : "DELINQ"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "Importance" : "1.73509880536",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.169125138354",
+      "Std" : "2.16195035356",
+      "Variable" : "CLNO"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "Importance" : "1.54916967207",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.151002083751",
+      "Std" : "1.88898858877",
+      "Variable" : "MORTDUE"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "Importance" : "1.48093808795",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.144351352352",
+      "Std" : "2.47358285691",
+      "Variable" : "JOB"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "Importance" : "1.32462865872",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.129115416644",
+      "Std" : "1.73703636494",
+      "Variable" : "LOAN"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "Importance" : "1.15575736654",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.112655039538",
+      "Std" : "3.51319836869",
+      "Variable" : "DEROG"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "Importance" : "1.10657371893",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.107860966035",
+      "Std" : "1.78710006043",
+      "Variable" : "NINQ"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "Importance" : "0.155463330178",
+      "LABEL" : "",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0151534639664",
+      "Std" : "0.444119726382",
+      "Variable" : "REASON"
+    },
+    "rowNumber" : 12
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}
