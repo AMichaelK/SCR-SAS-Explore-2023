@@ -1,0 +1,23 @@
+{
+   "creationTimeStamp": "2023-08-29T11:14:13.049Z",
+   "createdBy": "viya_admin",
+   "modifiedTimeStamp": "2023-09-07T14:44:51.455Z",
+   "modifiedBy": "sorowl",
+   "id": "5b2981f2-4814-48cb-825a-463d76801b2c",
+   "name": "Xgboost",
+   "scoreCodeType": "python",
+   "algorithm": "Xgboost",
+   "function": "classification",
+   "modeler": "sorowl",
+   "modelType": "python",
+   "trainCodeType": "python",
+   "eventProbVar": "P_1",
+   "targetVariable": "Delay",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Python 3",
+   "toolVersion": "3.9.6",
+   "publishTimeStamp": 1693598088927,
+   "modelVersionName": "3.0",
+   "custom properties": []
+}
