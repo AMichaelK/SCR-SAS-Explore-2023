@@ -1,0 +1,23 @@
+{
+   "creationTimeStamp": "2023-08-29T11:09:51.154Z",
+   "createdBy": "viya_admin",
+   "modifiedTimeStamp": "2023-09-10T00:55:41.933Z",
+   "modifiedBy": "ankanz",
+   "id": "e4949fbb-1dfb-43f7-92b3-442f8b968dc7",
+   "name": "SKLearn Logistic Regression",
+   "scoreCodeType": "python",
+   "algorithm": "Logistic Regression",
+   "function": "classification",
+   "modeler": "sorowl",
+   "modelType": "python",
+   "trainCodeType": "python",
+   "eventProbVar": "P_1",
+   "targetVariable": "Delay",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Python 3",
+   "toolVersion": "3.9.6",
+   "publishTimeStamp": 1694307340702,
+   "modelVersionName": "4.0",
+   "custom properties": []
+}
