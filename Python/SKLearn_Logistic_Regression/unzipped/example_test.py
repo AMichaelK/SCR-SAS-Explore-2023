@@ -14,4 +14,4 @@ def score_record(Carrier,DayofMonth,OriginAirport,ScheduledElapsedTimeMinutes,Ar
     "Output: EM_CLASSIFICATION,EM_EVENTPROBABILITY"
     return score_SKLearn_Logistic_Regression.score(Carrier,DayofMonth,OriginAirport,ScheduledElapsedTimeMinutes,ArrivalHour,DepatureHour)
 
-print(score_record("",38.96,"",29.95,62.07,133.05))
+print(score_record("",70.58,"",104.46,110.27,56.01))
