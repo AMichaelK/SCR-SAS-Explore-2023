@@ -26,7 +26,7 @@ data sasep.out;
       resultCode = revision = 0;
       if null(pm) then do;
          pm = _new_ pymas();
-         resultCode = pm.useModule('model_exec_fd2a6708-5ecb-4388-bc5b-b0de912c4492', 1);
+         resultCode = pm.useModule('model_exec_43411d83-2e94-4b9e-925d-dd41a3d6aad3', 1);
          if resultCode then do;
             resultCode = pm.appendSrcLine('import sys');
             resultCode = pm.appendSrcLine('sys.path.append("/models/resources/viya/e4949fbb-1dfb-43f7-92b3-442f8b968dc7/")');
@@ -37,7 +37,7 @@ data sasep.out;
             resultCode = pm.appendSrcLine('    "Output: EM_CLASSIFICATION, EM_EVENTPROBABILITY"');
             resultCode = pm.appendSrcLine('    return score_SKLearn_Logistic_Regression.score(Carrier, DayofMonth, OriginAirport, ScheduledElapsedTimeMinutes, ArrivalHour, DepatureHour)');
 
-            revision = pm.publish(pm.getSource(), 'model_exec_fd2a6708-5ecb-4388-bc5b-b0de912c4492');
+            revision = pm.publish(pm.getSource(), 'model_exec_43411d83-2e94-4b9e-925d-dd41a3d6aad3');
             if ( revision < 1 ) then do;
                logr.log( 'e', 'py.publish() failed.');
                resultCode = -1;

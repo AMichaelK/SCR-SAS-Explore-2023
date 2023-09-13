@@ -1,7 +1,7 @@
 {
    "creationTimeStamp": "2023-08-29T11:09:51.154Z",
    "createdBy": "viya_admin",
-   "modifiedTimeStamp": "2023-09-10T22:07:44.480Z",
+   "modifiedTimeStamp": "2023-09-12T19:29:51.425Z",
    "modifiedBy": "ankanz",
    "id": "e4949fbb-1dfb-43f7-92b3-442f8b968dc7",
    "name": "SKLearn Logistic Regression",
@@ -17,7 +17,7 @@
    "targetLevel": "binary",
    "tool": "Python 3",
    "toolVersion": "3.9.6",
-   "publishTimeStamp": 1694383663213,
-   "modelVersionName": "5.0",
+   "publishTimeStamp": 1694546990196,
+   "modelVersionName": "6.0",
    "custom properties": []
 }
