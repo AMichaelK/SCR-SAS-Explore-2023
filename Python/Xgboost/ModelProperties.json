@@ -1,7 +1,7 @@
 {
    "creationTimeStamp": "2023-08-29T11:14:13.049Z",
    "createdBy": "viya_admin",
-   "modifiedTimeStamp": "2023-09-07T22:52:09.338Z",
+   "modifiedTimeStamp": "2023-09-07T23:04:06.638Z",
    "modifiedBy": "ankanz",
    "id": "5b2981f2-4814-48cb-825a-463d76801b2c",
    "name": "Xgboost",
@@ -17,7 +17,7 @@
    "targetLevel": "binary",
    "tool": "Python 3",
    "toolVersion": "3.9.6",
-   "publishTimeStamp": 1694127128034,
-   "modelVersionName": "5.0",
+   "publishTimeStamp": 1694127845346,
+   "modelVersionName": "6.0",
    "custom properties": []
 }

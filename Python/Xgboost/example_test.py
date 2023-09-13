@@ -14,4 +14,4 @@ def score_record(Carrier,DayofMonth,OriginAirport,ScheduledElapsedTimeMinutes,Ar
     "Output: EM_CLASSIFICATION,EM_EVENTPROBABILITY"
     return score_Xgboost.score(Carrier,DayofMonth,OriginAirport,ScheduledElapsedTimeMinutes,ArrivalHour,DepatureHour)
 
-print(score_record("",119.54,"",189.11,12.67,44.38))
+print(score_record("",105.91,"",126.59,68.82,43.37))

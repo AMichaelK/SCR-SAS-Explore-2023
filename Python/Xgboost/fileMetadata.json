@@ -1,9 +1,5 @@
 [
    {
-      "name": "ContainerWrapper.py",
-      "role": "scoreResource"
-   },
-   {
       "name": "score_Xgboost.py",
       "role": "score"
    },
@@ -21,6 +17,10 @@
    },
    {
       "name": "DS2Pkg_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "ContainerWrapper.py",
       "role": "scoreResource"
    },
    {

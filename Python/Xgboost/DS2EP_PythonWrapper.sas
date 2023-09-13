@@ -26,7 +26,7 @@ data sasep.out;
       resultCode = revision = 0;
       if null(pm) then do;
          pm = _new_ pymas();
-         resultCode = pm.useModule('model_exec_435b511d-96d5-415d-b16b-624625e6eb11', 1);
+         resultCode = pm.useModule('model_exec_682ff114-e408-431a-8e22-24b2d7790446', 1);
          if resultCode then do;
             resultCode = pm.appendSrcLine('import sys');
             resultCode = pm.appendSrcLine('sys.path.append("/models/resources/viya/5b2981f2-4814-48cb-825a-463d76801b2c/")');
@@ -37,7 +37,7 @@ data sasep.out;
             resultCode = pm.appendSrcLine('    "Output: EM_CLASSIFICATION, EM_EVENTPROBABILITY"');
             resultCode = pm.appendSrcLine('    return score_Xgboost.score(Carrier, DayofMonth, OriginAirport, ScheduledElapsedTimeMinutes, ArrivalHour, DepatureHour)');
 
-            revision = pm.publish(pm.getSource(), 'model_exec_435b511d-96d5-415d-b16b-624625e6eb11');
+            revision = pm.publish(pm.getSource(), 'model_exec_682ff114-e408-431a-8e22-24b2d7790446');
             if ( revision < 1 ) then do;
                logr.log( 'e', 'py.publish() failed.');
                resultCode = -1;
